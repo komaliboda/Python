@@ -5,9 +5,9 @@
 
 num = int(input("Enter num : "))
 
-if num>0:
-    print(" number is positive ")
-elif num<0:
-    print(" number is negative ")
+if num > 0:
+    print(" Number is positive ")
+elif num < 0:
+    print(" Number is negative ")
 else:
-    print(" number is zero ")
+    print(" Number is zero ")
