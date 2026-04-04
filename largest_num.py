@@ -1,0 +1,13 @@
+#--------------------------------------
+#project : Largest of two numbers 
+#description : Finds the greater number
+#--------------------------------------
+
+num1 = int(input("Enter first number : "))
+num2 = int(input("Enter second number : "))
+if num1>num2:
+    print("first number is largest")
+elif num2>num1:
+    print("second number is largest")
+else:
+    print("Both numbers are equal")
