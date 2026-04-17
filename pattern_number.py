@@ -3,15 +3,34 @@
 #description : different numbers pattern
 #--------------------------------------
 
-#number pattern 
+#pattern 1 : number pattern 
 for i in range(1,6):
     for j in range(1,i+1):
         print(j,end=" ")
     print()
 
 
-#reverse number pattern 
+#pattern 2 : reverse number pattern 
 for i in range(5,0,-1):
     for j in range(5,i-1,-1):
         print(j,end=" ")
     print()
+
+#pattern 3 : continuous number
+
+num = 1
+for i in range(1,6):
+    for j in range(i):
+        print(num, end=" ")
+        num += 1
+    print()
+
+#pattern 4: reset numbers every row
+
+for i in range(1,6):
+    num = 1
+    for j in range(i):
+        print(num,end=" ")
+        num += 1
+    print()
+    
