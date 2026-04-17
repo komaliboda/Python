@@ -33,4 +33,10 @@ for i in range(1,6):
         print(num,end=" ")
         num += 1
     print()
+#pattern 5 : same number pattern
+for i in range(1,6):
+    for j in range(i):
+        print(i, end=" ")
+    print()
+        
     
