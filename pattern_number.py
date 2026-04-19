@@ -33,20 +33,38 @@ for i in range(1,6):
         print(num,end=" ")
         num += 1
     print()
+
 #pattern 5 : same number pattern
+
 for i in range(1,6):
     for j in range(i):
         print(i, end=" ")
     print()
         
-  #pattern 6 : star triangle 
+
+#pattern 6 : star triangle 
+
 for i in range(1,6):
     for j in range(i):
         print("*",end=" ")
     print()
 
+
 #pattern 7 : reverse star triangle 
+
 for i in range(5,0,-1):
     for j in range(i):
         print("*",end=" ")
-    print()  
+    print() 
+
+
+#pattern 8 :star diamond half pattern 
+
+for i in range(1,6):
+    for j in range(i):
+        print(" * ",end="  ")
+    print()
+for i in range(4,0,-1):
+    for j in range(i):
+        print(" * ",end="  ")
+    print() 
