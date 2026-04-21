@@ -71,9 +71,18 @@ for i in range(4,0,-1):
         print(" * ",end="  ")
     print() 
 
-#pattern 9 :right aligned triangle 
+#pattern 9 :right aligned star triangle 
 
 for i in range(1,6):
+    for j in range(5-i):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end=" ")
+    print()
+
+#pattern 10 : right aligned inverted star triangle 
+
+for i in range(5,0,-1):
     for j in range(5-i):
         print(" ",end="")
     for k in range(i):
