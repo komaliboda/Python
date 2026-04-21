@@ -4,6 +4,7 @@
 #--------------------------------------
 
 #pattern 1 : number pattern 
+
 for i in range(1,6):
     for j in range(1,i+1):
         print(j,end=" ")
@@ -11,6 +12,7 @@ for i in range(1,6):
 
 
 #pattern 2 : reverse number pattern 
+
 for i in range(5,0,-1):
     for j in range(5,i-1,-1):
         print(j,end=" ")
@@ -68,3 +70,12 @@ for i in range(4,0,-1):
     for j in range(i):
         print(" * ",end="  ")
     print() 
+
+#pattern 9 :right aligned triangle 
+
+for i in range(1,6):
+    for j in range(5-i):
+        print(" ",end="")
+    for k in range(i):
+        print("*",end=" ")
+    print()
